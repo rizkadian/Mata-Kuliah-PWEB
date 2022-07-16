@@ -5,25 +5,21 @@
 .tombol:hover{
 	color: #2e86c1;
 }
-.masuk {
-	text-decoration: none;
-	width: 120px;
-	color: white;
-	border-radius: 5px;
-	text-align: center;
-	background-color: #2674a6;
-}
-.masuk:hover{
-	color: #2e86c1;
-}
 .submit {
-	text-decoration: none;
-	background-color: #2674a6;
+	padding: 7px 40px;
+	border-radius: 15px;
+	margin: auto ;
+	border: none;
+	margin-top: 15px;
+	cursor: pointer;
+	background: #2674a6;
 	color: white;
-	border: 0px;
-	border-radius: 5px;
-	width: 140px;
-	height: 35px;
+	font-size: 15px;
+	font-family: ms reference sans serif;
+	font-weight: bold;
+}
+.submit:hover{
+	background: #2e86c1;
 }
 .garis {
 	border-bottom-width: 3px;
@@ -50,6 +46,46 @@
 	border-right-width: 0px;
 	border-left-width: 5px;
 }
+.regis {
+	padding: 5px;
+	width: 260px;
+	border-color: #2674a6;
+	text-align: center;
+	background-color: #ec7063;
+	border-style: solid;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+.reglog{
+	text-decoration: none;
+	color: white;
+}
+.regis:hover{
+	background-color: #e74c3c;
+	box-shadow: 0px 0px 8px #808b96;
+}
+.log:hover{
+	background-color: #1abc9c;
+	box-shadow: 0px 0px 8px #808b96;
+}
+.log {
+	padding: 5px;
+	width: 260px;
+	border-color: #2674a6;
+	text-align: center;
+	background-color: #48c9b0;
+	border-style: solid;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-radius: 15px;
+	text-decoration: none;
+}
 .judul2 {
 	padding: 5px;
 	width: 195px;
@@ -64,4 +100,106 @@
 }
 .komentar {
 	border: 2px solid lightgrey;
+}
+.komen {
+	width: 98%;
+	padding: 5px;
+	border: none;
+	border-bottom: 2px solid #2e86c1;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.komen::placeholder {
+	color: #808080;
+	font-size: 15px;
+	font-family: ms reference sans serif;
+}
+.bodylogin{
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	margin: auto;
+	background: white;
+	box-shadow: 0px 0px 8px #c9c9c9;
+}
+.login{
+	padding: 10px 70px;
+	border-radius: 25px;
+	margin-left: 60px;
+	margin-Top: 35px;
+	margin-Bottom: 15px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(30deg, #3498db, #1b2631);
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+.login:hover {
+	background: #2e86c1;
+}
+.input {
+	width: 70%;
+	padding: 10px;
+	border: none;
+	margin-left: 43px;
+	margin-top: 20px;
+	border-bottom: 2px solid #2e86c1;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.input::placeholder {
+	color: #808080;
+	font-size: 15px;
+	font-family: ms reference sans serif;
+}
+.judull {
+	padding: 5px;
+	border-color: #2674a6;
+	text-align: left;
+	background-color: #f8f9f9;
+	border-style: solid;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 5px;
+	display: block;
+}
+.sign-up {
+    margin: 5px 0 0;
+    font-size: 14px;
+    text-align: center;
+}
+.sign-up a {
+    color: #2e86c1;
+}
+.kom {
+	padding: 5px;
+	width: 260px;
+	border-color: #2674a6;
+	text-align: center;
+	background-color: white;
+	border-style: solid;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px #c9c9c9;
+}
+.login{
+	padding: 10px 70px;
+	border-radius: 25px;
+	margin-left: 60px;
+	margin-Top: 35px;
+	margin-Bottom: 15px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(30deg, #3498db, #1b2631);
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+.login:hover {
+	background: #2e86c1;
 }
