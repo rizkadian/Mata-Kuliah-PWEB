@@ -1,0 +1,67 @@
+.tombol {
+	text-decoration: none;
+	color: black;
+}
+.tombol:hover{
+	color: #2e86c1;
+}
+.masuk {
+	text-decoration: none;
+	width: 120px;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #2674a6;
+}
+.masuk:hover{
+	color: #2e86c1;
+}
+.submit {
+	text-decoration: none;
+	background-color: #2674a6;
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+	width: 140px;
+	height: 35px;
+}
+.garis {
+	border-bottom-width: 3px;
+	border-top-width: 3px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-color: #2874a6;
+}
+.kotak {
+	margin: 20px;
+	box-shadow: 0px 0px 8px #c9c9c9;
+	background-color: white;
+}
+.judul {
+	padding: 5px;
+	width: 250px;
+	border-color: #2674a6;
+	text-align: left;
+	background-color: #f8f9f9;
+	border-style: solid;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 5px;
+}
+.judul2 {
+	padding: 5px;
+	width: 195px;
+	border-color: #2874a6;
+	text-align: left;
+	background-color: #f8f9f9;
+	border-style: solid;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 5px;
+}
+.komentar {
+	border: 2px solid lightgrey;
+}
